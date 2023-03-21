@@ -32,14 +32,17 @@
 (define-asset (pool heart-in-the-sand) image
     '(#p"heart-in-the-sand/posx.jpg" #p"heart-in-the-sand/negx.jpg"
       #p"heart-in-the-sand/posy.jpg" #p"heart-in-the-sand/negy.jpg"
-      #p"heart-in-the-sand/posz.jpg" #p"heart-in-the-sand/negz.jpg"))
+      #p"heart-in-the-sand/posz.jpg" #p"heart-in-the-sand/negz.jpg")
+  :target :texture-cube-map)
 
 (define-asset (pool masko-naive) image
     '(#p"masko-naive/posx.jpg" #p"masko-naive/negx.jpg"
       #p"masko-naive/posy.jpg" #p"masko-naive/negy.jpg"
-      #p"masko-naive/posz.jpg" #p"masko-naive/negz.jpg"))
+      #p"masko-naive/posz.jpg" #p"masko-naive/negz.jpg")
+  :target :texture-cube-map)
 
 (define-asset (pool nissi-beach) image
     '(#p"nissi-beach/posx.jpg" #p"nissi-beach/negx.jpg"
       #p"nissi-beach/posy.jpg" #p"nissi-beach/negy.jpg"
-      #p"nissi-beach/posz.jpg" #p"nissi-beach/negz.jpg"))
+      #p"nissi-beach/posz.jpg" #p"nissi-beach/negz.jpg")
+  :target :texture-cube-map)
