@@ -1,4 +1,8 @@
-# trial-assets
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Shirakumo/trial/master/docs/images/logos/trial%20vertical%20mixed%20square.svg#gh-light-mode-only" />
+  <img src="https://raw.githubusercontent.com/Shirakumo/trial/master/docs/images/logos/trial%20vertical%20mixed%20square white.svg#gh-dark-mode-only" />
+</p>
+
 Assets for the Trial game engine.
 
 You will need to have [Git LFS](https://git-lfs.github.com/) installed in order to access the resources in this repository.
