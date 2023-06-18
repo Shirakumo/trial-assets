@@ -46,3 +46,5 @@
       #p"nissi-beach/posy.jpg" #p"nissi-beach/negy.jpg"
       #p"nissi-beach/posz.jpg" #p"nissi-beach/negz.jpg")
   :target :texture-cube-map)
+
+(define-assets-from-path (pool environment-map "*.hdr"))
