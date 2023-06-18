@@ -4,10 +4,7 @@
   (:export
    #:pool
    #://
-   #:asset
-   #:heart-in-the-sand
-   #:masko-naive
-   #:nissi-beach))
+   #:asset))
 
 (in-package #:org.shirakumo.fraf.trial.assets)
 
@@ -48,3 +45,5 @@
   :target :texture-cube-map)
 
 (define-assets-from-path (pool environment-map "*.hdr"))
+(define-assets-from-path (pool image "*.jpg"))
+(define-assets-from-path (pool image "*.png"))
