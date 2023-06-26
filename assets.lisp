@@ -47,3 +47,4 @@
 (define-assets-from-path (pool environment-map "*.hdr"))
 (define-assets-from-path (pool image "*.jpg"))
 (define-assets-from-path (pool image "*.png"))
+(define-assets-from-path (pool image "kenney-particles/*.png" :ignore-directory T))
