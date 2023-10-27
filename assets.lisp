@@ -60,3 +60,4 @@
 (define-assets-from-path (pool model-file "*.gltf"))
 (define-assets-from-path (pool model-file "*.obj"))
 (define-assets-from-path (pool model-file "*.fbx"))
+(define-assets-from-path (pool video-file "*.ogv"))
