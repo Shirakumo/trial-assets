@@ -56,6 +56,7 @@
 (define-assets-from-path (pool image "*.tga"))
 (define-assets-from-path (pool image "*.tiff"))
 (define-assets-from-path (pool image "kenney-particles/*.png" :ignore-directory T))
+(define-assets-from-path (pool sprite-data "*.json"))
 (define-assets-from-path (pool model-file "*.glb"))
 (define-assets-from-path (pool model-file "*.gltf"))
 (define-assets-from-path (pool model-file "*.obj"))
