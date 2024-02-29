@@ -62,3 +62,9 @@
 (define-assets-from-path (pool model-file "*.obj"))
 (define-assets-from-path (pool model-file "*.fbx"))
 (define-assets-from-path (pool video-file "*.ogv"))
+(define-assets-from-path (pool audio-file "sounds/*.wav" :ignore-directory T))
+(define-assets-from-path (pool audio-file "sounds/*.ogg" :ignore-directory T))
+(define-assets-from-path (pool audio-file "sounds/*.mp3" :ignore-directory T))
+(define-assets-from-path (pool audio-file "sounds/*.opus" :ignore-directory T))
+(define-assets-from-path (pool audio-file "sounds/*.flac" :ignore-directory T))
+
