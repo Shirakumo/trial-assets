@@ -16,7 +16,7 @@
 (define-compiler-macro // (name &optional (resource T) &environment env)
   (if (constantp name env)
       `(trial:// 'pool ',(intern (string name) #.*package*) ,resource)
-      `(trial:// 'pool (intern ,(string name) #.*package*) ,resource)))
+      `(trial:// 'pool (intern (string ,name) #.*package*) ,resource)))
 
 (defun asset (name &optional errorp)
   (trial:asset 'pool (intern (string name) #.*package*) errorp))
@@ -24,7 +24,7 @@
 (define-compiler-macro asset (name &optional errorp &environment env)
   (if (constantp name env)
       `(trial:asset 'pool ',(intern (string name) #.*package*) ,errorp)
-      `(trial:asset 'pool (intern ,(string name) #.*package*) ,errorp)))
+      `(trial:asset 'pool (intern (string ,name) #.*package*) ,errorp)))
 
 (define-asset (pool heart-in-the-sand) image
     '(#p"heart-in-the-sand/posx.jpg" #p"heart-in-the-sand/negx.jpg"
