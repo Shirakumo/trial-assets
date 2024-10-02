@@ -1,10 +1,11 @@
 (defpackage #:org.shirakumo.fraf.trial.assets
   (:use #:cl+trial)
-  (:shadow #:// #:asset)
+  (:shadow #:// #:asset #:file)
   (:export
    #:pool
    #://
-   #:asset))
+   #:asset
+   #:file))
 
 (in-package #:org.shirakumo.fraf.trial.assets)
 
@@ -18,13 +19,17 @@
       `(trial:// 'pool ',(intern (string name) #.*package*) ,resource)
       `(trial:// 'pool (intern (string ,name) #.*package*) ,resource)))
 
-(defun asset (name &optional errorp)
+(defun asset (name &optional (errorp T))
   (trial:asset 'pool (intern (string name) #.*package*) errorp))
 
-(define-compiler-macro asset (name &optional errorp &environment env)
+(define-compiler-macro asset (name &optional (errorp T) &environment env)
   (if (constantp name env)
       `(trial:asset 'pool ',(intern (string name) #.*package*) ,errorp)
       `(trial:asset 'pool (intern (string ,name) #.*package*) ,errorp)))
+
+(defun file (name &optional (errorp T))
+  (let ((asset (asset name errorp)))
+    (when asset (trial:input* asset))))
 
 (define-asset (pool heart-in-the-sand) image
     '(#p"heart-in-the-sand/posx.jpg" #p"heart-in-the-sand/negx.jpg"
