@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256"
+   height="256"
+   viewBox="0 0 67.733332 67.733333"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="nxnm.svg"
+   inkscape:export-filename="1x1m.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="5.0339691"
+     inkscape:cx="57.608617"
+     inkscape:cy="151.37161"
+     inkscape:window-width="3832"
+     inkscape:window-height="2312"
+     inkscape:window-x="0"
+     inkscape:window-y="42"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:export-bgcolor="#ffffffff" />
+  <defs
+     id="defs1">
+    <rect
+       x="4.3703089"
+       y="177.19616"
+       width="117.20374"
+       height="70.123593"
+       id="rect3" />
+    <rect
+       x="5.3635609"
+       y="147.0013"
+       width="115.81319"
+       height="88.796731"
+       id="rect2" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect1"
+       style="fill:#b9b9b9;fill-opacity:1;stroke-width:1.84284;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       d="M 0 0 L 0 33.866667 L 33.866667 33.866667 L 33.866667 0 L 0 0 z M 33.866667 33.866667 L 33.866667 67.733333 L 67.733333 67.733333 L 67.733333 33.866667 L 33.866667 33.866667 z M 36.5125 58.06519 L 46.401302 58.06519 C 47.83447 58.06519 48.551042 58.638449 48.551042 59.784981 L 48.551042 65.0875 L 45.971354 65.0875 L 45.971354 59.856295 C 45.971354 59.665204 45.852098 59.570007 45.613236 59.570007 L 43.821615 59.570007 L 43.821615 65.0875 L 41.241927 65.0875 L 41.241927 59.856295 C 41.241927 59.665204 41.122671 59.570007 40.883809 59.570007 L 39.092187 59.570007 L 39.092187 65.0875 L 36.5125 65.0875 L 36.5125 58.06519 z "
+       inkscape:label="pattern" />
+    <text
+       xml:space="preserve"
+       transform="matrix(1.38073,0,0,1.38073,-131.8602,-200.31478)"
+       id="text2"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.8851px;line-height:1.1;font-family:PromptFont;-inkscape-font-specification:PromptFont;text-align:center;letter-spacing:-1.91626px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3);display:inline;fill:#b9b9b9;fill-opacity:1;stroke-width:6.803;stroke-linecap:round;stroke-linejoin:round;paint-order:markers stroke fill"
+       x="4.053318"
+       y="0"
+       inkscape:label="size"><tspan
+         x="108.33925"
+         y="192.2188"
+         id="tspan2"><tspan
+           style="text-align:end;text-anchor:end"
+           id="tspan1">1</tspan></tspan></text>
+  </g>
+</svg>
