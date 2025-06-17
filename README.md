@@ -16,3 +16,6 @@ To use assets from this, you'll probably want to use a local-nickname like `tria
 ```
 
 These are analogous to Trial's versions, except that it automatically coerces the name to be within the trial-assets package and prefixing the `pool`, reducing redundancy.
+
+## Licensing
+The license of the code itself is zlib (as per the LICENSE file), but the assets themselves are CC0-1.0 (as per data/LICENSE) unless otherwise stated. If other licensing requirements apply, they will be stated in a README or LICENSE file accompanying the file.
