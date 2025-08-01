@@ -52,7 +52,11 @@
 (define-assets-from-path (pool environment-map "*.hdr"))
 (define-assets-from-path (pool image "*.jpg"))
 (define-assets-from-path (pool image "*.jpeg"))
-(define-assets-from-path (pool image "*.png"))
+(define-assets-from-path (pool image "*.png")
+  (intensity-gradient
+   :min-filter :linear
+   :mag-filter :linear
+   :wrapping :clamp-to-edge))
 (define-assets-from-path (pool image "*.ktx"))
 (define-assets-from-path (pool image "*.gif"))
 (define-assets-from-path (pool image "*.bmp"))
