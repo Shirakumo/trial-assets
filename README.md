@@ -1,21 +1,4 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Shirakumo/trial/master/docs/images/logos/trial%20vertical%20mixed%20square.svg#gh-light-mode-only" />
-  <img src="https://raw.githubusercontent.com/Shirakumo/trial/master/docs/images/logos/trial%20vertical%20mixed%20square white.svg#gh-dark-mode-only" />
-</p>
+# This repository has [moved](https://shirakumo.org/projects/trial-assets)!
+Due to Microsoft's continued enshittification of the platform this repository has been moved to [Codeberg](https://shirakumo.org/projects/trial-assets) in August of 2025. It will not receive further updates or patches. **Issues and pull requests will not be looked at here either**, please submit your patches and issue tickets on Codeberg, or send them directly via good old email patches to [shirakumo@tymoon.eu](mailto:shirakumo@tymoon.eu).
 
-Assets for the Trial game engine.
-
-You will need to have [Git LFS](https://git-lfs.github.com/) installed in order to access the resources in this repository.
-
-After cloning the repository, run 'git lfs install', 'git lfs fetch' and 'git lfs checkout' to properly set up the data files and tracking.
-
-To use assets from this, you'll probably want to use a local-nickname like `trial-assets` and then use the functions `//` and `asset`:
-
-```commonlisp
-(trial-assets:// :heart-in-the-sand)
-```
-
-These are analogous to Trial's versions, except that it automatically coerces the name to be within the trial-assets package and prefixing the `pool`, reducing redundancy.
-
-## Licensing
-The license of the code itself is zlib (as per the LICENSE file), but the assets themselves are CC0-1.0 (as per data/LICENSE) unless otherwise stated. If other licensing requirements apply, they will be stated in a README or LICENSE file accompanying the file.
+Thanks.
